@@ -13,7 +13,7 @@ The above specifications are hard-coded in the program.
 - Gradle 2.2.1
 - R 3.1.2
 
-Of course, you have set your JAVA_HOME and GRADLE_HOME variables correctly.
+Of course, you have to set your JAVA_HOME and GRADLE_HOME variables correctly.
 Besides, this java program is calling a Rscript using R via the path /usr/bin/Rscript (working at least on MacOS X 10.9.5 and Ubuntu 14.04 by standard installation of R), you can test if the R script is running correctly by using `./gradlew testRScript`. Otherwise, you have to rewrite the method "writeRScript" in SaxRepresentationImpl.java correspondingly.
 
 ## Implementation 
