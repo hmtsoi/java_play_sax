@@ -1,0 +1,14 @@
+.classpath
+.project
+
+bin/
+build/
+class/
+gradle/
+.gradle/
+gradlew
+gradlew.bat
+
+.settings/
+.checkstyle
+
